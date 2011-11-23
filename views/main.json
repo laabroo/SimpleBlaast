@@ -82,7 +82,7 @@
         },
 
         {
-            "name": "jarakComponent",
+
             "control": "TextView",
             "style": {
                 "color": "black",
@@ -106,7 +106,7 @@
         },
 
         {
-            "name": "labelValueNim",
+            "name": "labelValueName",
             "control": "TextView",
             "label": " ",
             "style": {
@@ -117,7 +117,7 @@
             }
         },
         {
-            "name": "labelValueNim",
+            "name": "labelValueEmail",
             "control": "TextView",
             "label": " ",
             "style": {
@@ -128,7 +128,7 @@
             }
         },
         {
-            "name": "labelValueNim",
+            "name": "labelValueTwitter",
             "control": "TextView",
             "label": " ",
             "style": {
