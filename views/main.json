@@ -1,6 +1,6 @@
 {
     "style": {
-        "background-color": "white",
+        "background-color": "#87CEEB",
         "border": 10
     },
 
@@ -8,9 +8,10 @@
         {
             "name": "title",
             "control": "TextView",
-            "label": "HellowDunia",
+            "label": "Daftar Anggota Blaast",
             "style": {
                 "color": "black",
+                "font-weight": "bold",
                 "width": "fill-parent",
                 "height": "wrap-content",
                 "align": "center",
@@ -35,13 +36,13 @@
             "style":{
                 "width": "fill-parent",
                 "height": "wrap-content",
-                "align": "left"
+                "background-color": "#F0FFFF"
             }
         },
         {
-            "name": "labelClass",
+            "name": "labelEmail",
             "control": "TextView",
-            "label": "Kelas : ",
+            "label": "Email : ",
             "style": {
                 "color": "black",
                 "width": "fill-parent",
@@ -50,18 +51,19 @@
             }
         },
         {
-            "name": "textClass",
+            "name": "textEmail",
             "control": "InputBox",
             "style":{
                 "width": "fill-parent",
                 "height": "wrap-content",
-                "align": "left"
+                "background-color": "#F0FFFF"
+
             }
         },
         {
-            "name": "labelNim",
+            "name": "labelTwitter",
             "control": "TextView",
-            "label": "NIM : ",
+            "label": "Twitter : ",
             "style": {
                 "color": "black",
                 "width": "fill-parent",
@@ -70,22 +72,36 @@
             }
         },
         {
-            "name": "textNim",
+            "name": "textTwitter",
             "control": "InputBox",
             "style":{
                 "width": "fill-parent",
                 "height": "wrap-content",
-                "align": "left"
+                "background-color": "#F0FFFF"
             }
         },
+
+        {
+            "name": "jarakComponent",
+            "control": "TextView",
+            "style": {
+                "color": "black",
+                "width": "fill-parent",
+                "height": 5
+            }
+        },
+
         {
             "name": "buttonOk",
             "control": "TextView",
             "label":"OK",
             "style": {
-                "width": "wrap-content",
-                "height": "wrap-content",
-                "align": "right"
+                "width": 80,
+                "height": 30,
+                "align": "center",
+                "valign": "middle",
+                "background-color": "#778899"
+
             }
         },
 
